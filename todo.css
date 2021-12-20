@@ -1,0 +1,72 @@
+/**** Todo list starts here ****/
+ /* #todoul{
+    padding-left: 0px;
+} */
+#image {
+    background-color: rgb(54, 6, 6);
+    margin-left: 120px;
+}
+#mytodo{
+    padding: 20px 0px 20px 50px;
+    color: rgb(228, 17, 17);
+}
+#input{
+    border-radius: 5px;
+    border-color: rgb(231, 75, 75);
+}
+ul{
+    padding-left: 0px;
+}
+  
+  li{
+    list-style-type: none;
+    background-color:#eee;
+    border: 1px dashed rgb(231, 75, 75);
+    padding: 10px 0px 10px 5px;
+  } 
+ 
+.done{
+    background-color: green;
+}
+.remove{
+    background-color: red;
+}
+.important{
+    background-color: lightblue;
+}
+
+li.finished{
+ color: white;
+ background-color: gray;
+ text-decoration: line-through;
+}
+
+li.important{
+    background-color: rgb(241, 58, 58);
+    color: white;
+}
+
+#donebutton input[type="text"]{
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+}
+
+#donebutton input[type="button"]{
+    font-size: 1.2em;
+    margin: -6px 4px 0px 0px;    
+}
+
+#addButton{
+    padding: 10px;
+    margin-left: 125px;
+}
+
+.aboutcolor{
+ background-color: rgb(230, 126, 126);
+ margin-top: 5px;
+}
+
+
+
+/**** Todo list stops here ****/
