@@ -32,8 +32,8 @@ function doAbout(){
     // var About = document.getElementById("divabout");
     var About = document.getElementById("forAboutText")
     About.innerHTML=  'The author of this is Mukhtar.<br> You can find me on github @mukhtarani. <br>' + " " +
-                       '<h5>Use green button to mark task as done <br>Use red button to remove task after it is done<br>Use blue button to mark as important</h5>'+ " " + 
-                       '<h6>doubleclick to clear me</h6>'
+                       '<h5>Use green button to mark task as done <br>Use red button to remove task after it is done<br>Use blue button to mark as important</h5>'
+                       
     About.className = "aboutcolor";
 }
 
