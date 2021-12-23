@@ -39,7 +39,7 @@ function doAbout(){
     var About = document.getElementById("forAboutText")
     About.innerHTML=  'The author of this is Mukhtar.<br> You can find me on github @mukhtarani. <br>' + " " +
                        '<h5>Use green button to mark task as done <br>Use red button to remove task after it is done<br>Use blue button to mark as important</h5>'
-                       
+                       + " " + '<button onclick="clearAbout()">close</button>'
     About.className = "aboutcolor";// applies style with class attribute aboutcolor from css
 }
 
