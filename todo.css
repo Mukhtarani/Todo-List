@@ -4,10 +4,10 @@
 } */
 #image {
     background-color: rgb(54, 6, 6);
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 #mytodo{
-    padding: 20px 0px 20px 50px;
+    padding: 20px 0px 20px 0px;
     color: rgb(228, 17, 17);
 }
 #input{
@@ -28,13 +28,25 @@ ul{
  
 .done{
     background-color: green;
+    border-style: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin-right: 5px;
 }
 .remove{
     background-color: red;
+    border-style: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    margin-right: 5px;
 }
 #importantbutton{
-    background-color: lightblue;
-    padding: 2px 10px 0 10px;
+    background-color: rgb(86, 201, 240);
+    /* padding: 5px 15px 5px 15px; */
+    border-style: none;
+    border-radius: 2px;
+    padding: 7px 13px 5px;
+    margin-right: 5px;
 }
 
 li.finished{
@@ -62,9 +74,11 @@ li.important{
 
 #addButton{
     padding: 10px;
-    margin-left: 125px;
-    background-color: rgb(129, 237, 129); 
-    color: black
+    /* margin-left: 125px; */
+    background-color: rgb(238, 103, 103); 
+    border-style: none;
+    border-radius: 5px;
+    color: rgb(216, 238, 241)
 }
 
 .aboutcolor{
